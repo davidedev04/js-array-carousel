@@ -22,3 +22,18 @@ buttonNext.addEventListener("click", function () {
 
 // funzione bottone sopra
 
+const buttonNext1 = document.querySelector(".button_next1");
+
+buttonNext1.addEventListener("click", function () {
+
+    if (imgItem < imgCards.length + 1) {
+
+        imgCards[imgItem].classList.remove("active");
+
+        imgItem--;
+
+        imgCards[imgItem].classList.add("active");
+
+    }
+
+});
