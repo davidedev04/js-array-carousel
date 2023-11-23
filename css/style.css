@@ -15,7 +15,21 @@ img{
 .img_container{
     width: 600px;
     height: 330px;
-    background-color: #000;
+}
+
+.buttons{
+    width: 100%;
+    height: 100%;
+}
+
+.button_next{
+    color: #000;
+    background-color: #ffffff42;
+}
+
+.button_next:hover{
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .active{
