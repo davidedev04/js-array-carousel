@@ -25,6 +25,7 @@ img{
 .button_next{
     color: #000;
     background-color: #ffffff42;
+    border: none;
 }
 
 .button_next:hover{
