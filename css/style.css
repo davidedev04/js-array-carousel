@@ -1,0 +1,27 @@
+
+img{
+    width: 100%;
+    height: 330px;
+}
+
+#centre{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container{
+    width: 600px;
+    height: 330px;
+    background-color: #000;
+}
+
+.active{
+    display: block;
+}
+
+.delete{
+    display: none;
+}
