@@ -17,15 +17,17 @@ img{
     height: 330px;
 }
 
+.img_card{
+    display: none;
+}
+
 .buttons{
     width: 100%;
     height: 100%;
 }
 
-.button_next{
-    color: #000;
+.background_c{
     background-color: #ffffff42;
-    border: none;
 }
 
 .button_next:hover{
@@ -33,10 +35,11 @@ img{
     cursor: pointer;
 }
 
-.active{
-    display: block;
+.button_next1:hover{
+    background-color: #fff;
+    cursor: pointer;
 }
 
-.delete{
-    display: none;
+.active{
+    display: block;
 }

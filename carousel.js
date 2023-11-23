@@ -3,23 +3,22 @@ const imgCards = document.getElementsByClassName("img_card");
 
 let imgItem = 0;
 
-// funzione bottone
+// funzione bottone sotto
 const buttonNext = document.querySelector(".button_next");
 
 buttonNext.addEventListener("click", function () {
 
-    if (imgItem < imgCards.lenght - 1) {
+    if (imgItem < imgCards.length - 1) {
 
         imgCards[imgItem].classList.remove("active");
-        imgCards[imgItem].classList.add("delete");
 
         imgItem++;
 
-        imgCards[imgItem].classList.remove("delete");
         imgCards[imgItem].classList.add("active");
 
     }
 
 });
 
-console.log(imgCards);
+// funzione bottone sopra
+
